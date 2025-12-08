@@ -163,6 +163,12 @@
             z-index: 2500;
             pointer-events: none;
         }
+        /* Remove box shadow / background from HUD canvases so the PFP area has no visible square */
+        #hud-ring-layer,
+        #hud-portrait-layer {
+            box-shadow: none;
+            background: transparent;
+        }
     </style>
 </head>
 <body>
